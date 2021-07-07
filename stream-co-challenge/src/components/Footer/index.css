@@ -1,0 +1,51 @@
+@import '../../constants/style/index.css';
+
+.footer-wrapper {
+    width: 100%;
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    background: var(--global-header-color);
+}
+
+.footer {
+    max-width: 1400px;
+    flex: 1;
+}
+
+.footer-row {
+    margin-bottom: var(--spacing);
+}
+
+.footer-row:first-child {
+    margin-top: var(--spacing);
+}
+
+.footer-row:last-child {
+    margin-top: calc(var(--spacing) * 2);
+}
+
+.footer-actions {
+    display: flex;
+    flex-direction: row;
+    flex: 0;
+}
+
+.footer-icon {
+    height: var(--footer-icon-size);
+    width: var(--footer-icon-size);
+}
+
+.footer-icon:last-child {
+    margin-right: 0;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-socials li {
+    list-style-type: none;
+    margin-right: var(--spacing);
+}

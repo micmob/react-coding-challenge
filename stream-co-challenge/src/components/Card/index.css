@@ -1,0 +1,16 @@
+.card-image {
+    background: var(--global-header-color);
+    flex: 0;
+    display: flex;
+    height: 300px;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.card-text {
+    padding-top: var(--spacing);
+    padding-bottom: var(--spacing);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

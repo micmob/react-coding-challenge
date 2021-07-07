@@ -1,0 +1,13 @@
+.page-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    max-width: 1400px;
+}

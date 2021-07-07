@@ -1,5 +1,7 @@
+import Shows from '../../components/Shows';
+
 const Series = () => {
-    return <div>SERIES</div>;
+    return <Shows type="series" />;
 };
 
 export default Series;

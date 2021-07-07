@@ -1,0 +1,27 @@
+:root {
+    /* ***** TYPOGRAPHY ***** */
+    --font-size: 14px;
+    --font-size-large: 2rem;
+    --font-size-body-1: 1rem;
+    --font-size-body-2: 0.875rem;
+
+    /* ***** COLORS ***** */
+    --primary: white;
+    --global-header-color: rgb(94, 94, 94);
+    --page-header-color: rgb(185, 185, 185);
+
+    /* ***** SPACING ***** */
+    --spacing: 16px;
+
+    /* ***** GLOBAL HEADER ***** */
+
+    --global-header-height: 100px;
+
+    /* ***** PAGE HEADER ***** */
+
+    --page-header-height: 60px;
+
+    /* ***** FOOTER ***** */
+    --footer-height: 150px;
+    --footer-icon-size: 30px;
+}

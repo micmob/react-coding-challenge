@@ -1,0 +1,7 @@
+.divider {
+    height: 100%;
+    width: 1px;
+    background: var(--primary);
+    display: flex;
+    align-self: center;
+}

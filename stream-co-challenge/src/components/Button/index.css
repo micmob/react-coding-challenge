@@ -1,0 +1,11 @@
+@import '../../constants/style/index.css';
+
+.button {
+    padding: var(--spacing);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: plum;
+    border: none;
+    flex: 0;
+}

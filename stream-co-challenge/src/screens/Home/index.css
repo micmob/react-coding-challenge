@@ -1,0 +1,22 @@
+.home {
+    flex: 1;
+    padding-top: var(--spacing);
+}
+
+.grid {
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-gap: var(--spacing);
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(var(--auto-grid-min-size), 1fr)
+    );
+}
+
+.grid li {
+    list-style-type: none;
+}
+
+.grid-card {
+    border: none;
+}

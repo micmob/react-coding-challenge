@@ -1,0 +1,10 @@
+@import '../../constants/style/index.css';
+
+.global-header-item {
+    display: flex;
+    align-items: center;
+}
+
+.global-header-auth {
+    flex-direction: row;
+}

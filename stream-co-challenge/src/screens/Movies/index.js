@@ -1,5 +1,7 @@
+import Shows from '../../components/Shows';
+
 const Movies = () => {
-    return <div>MOVIES</div>;
+    return <Shows type="movie" />;
 };
 
 export default Movies;
